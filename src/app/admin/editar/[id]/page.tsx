@@ -2,7 +2,6 @@ import { PrismaClient } from "@prisma/client";
 import { notFound, redirect } from "next/navigation";
 import { EditFormClient } from "./EditFormClient";
 
-export const dynamic = 'force-dynamic';
 
 const prisma = new PrismaClient();
 
