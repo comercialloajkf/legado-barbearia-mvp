@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-legado-black: #121212;
+  --color-legado-card: #1E1E1E;
+  --color-legado-gold: #F5C518;
+  --color-legado-white: #F3F4F6;
+  --color-legado-gray: #9CA3AF;
+  
+  --color-background: var(--color-legado-black);
+  --color-foreground: var(--color-legado-white);
+  --font-sans: var(--font-montserrat);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), sans-serif;
+}
